@@ -14,8 +14,8 @@
     --color-black-heavy: #000000;
     --color-text: #4f4f4f;
     --color-text-out: #90908e;
-    --color-primary: #23d15d;
-    --color-secondary: #57f59e;
+    --color-primary: #f5d547;
+    --color-secondary: #f5e557;
     --color-white: #ffffff;
     --color-red: #e74c3c;
     --color-green: #2ecc71;
@@ -45,11 +45,6 @@ a.navbar-brand {
     margin-left: -25px;
 }
 
-.nav-link {
-    color: var(--color-black)!important;
-    padding-left: 35px!important;
-    padding-right: 35px!important;
-}
 
 .btn-white {
     background-color: var(--color-white);
@@ -82,27 +77,6 @@ a.navbar-brand {
     padding-top: 6px;
 }
 
-.banner {
-    padding-top: 110px;
-    padding-bottom: 200px;
-}
-
-.text-banner {
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 60px;
-}
-
-.text-banner h1 {
-    color: var(--color-black);
-    font-size: 60px;
-}
-
-.text-banner p {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 20px;
-}
 
 .btn-yellow {
     background-color: var(--color-primary);
@@ -141,22 +115,6 @@ a.navbar-brand {
     width: 50px;
 }
 
-.card-banner {
-    height: 450px;
-    width: 450px;
-    border-radius: 170px;
-    background-color: #49f482;
-    position: absolute;
-    right: 0;
-    top: -80px;
-}
-
-.img-banner img {
-    position: absolute;
-    width: 570px;
-    top: 30px;
-    right: 15px;
-}
 
 .card {
     border-radius: 20px;
@@ -182,10 +140,6 @@ a.navbar-brand {
     bottom: 10px;
 }
 
-.servicos {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
 
 .hint-title {
     color: var(--color-primary);
@@ -220,14 +174,6 @@ a.navbar-brand {
     font-size: 22px;
     color: var(--color-black);
     margin-bottom: 10px;
-}
-
-.background-servicos {
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 500px;
-    background-image: url(../img/bg-icons-2.png);
 }
 
 .cardapio {
@@ -333,123 +279,6 @@ a.navbar-brand {
     margin-top: 20px;
 }
 
-
-.depoimentos {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-
-.background-depoimentos {
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 500px;
-    background-image: url(../img/bg-icons-1.png);
-}
-
-.card-depoimentos {
-    height: 390px;
-    width: 390px;
-    border-radius: 120px;
-    background-color: var(--color-secondary);
-    position: absolute;
-    left: 0;
-}
-
-.container-dados-depoimento {
-    display: flex;
-}
-
-.depoimento {
-    margin-top: 70px;
-}
-
-.imagem-depoimento {
-    width: 65px;
-    height: 65px;
-    background-color: var(--color-white);
-    border-radius: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 15px;
-}
-
-#depoimento-1 .imagem-depoimento {
-    background-image: url(../img/diego.jpg);
-    background-size: cover;
-}
-
-#depoimento-2 .imagem-depoimento {
-    background-image: url(../img/ana.jpg);
-    background-size: cover;
-}
-
-#depoimento-3 .imagem-depoimento {
-    background-image: url(../img/joao.jpg);
-    background-size: cover;
-}
-
-.nome-depoimento {
-    color: var(--color-black);
-    font-size: 22px;
-    margin-bottom: 5px;
-}
-
-.nota-depoimento {
-    color: var(--color-primary);
-}
-
-.nota-depoimento span {
-    color: var(--color-black);
-}
-
-.texto-depoimento {
-    display: flex;
-    font-size: 16px;
-    color: var(--color-black);
-}
-
-.texto-depoimento i {
-    font-size: 35px;
-    color: var(--color-primary);
-}
-
-.texto-depoimento i:first-child {
-    padding-left: 10px;
-    padding-right: 35px;
-}
-
-.texto-depoimento i:last-child {
-    padding-left: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-
-.reserva {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-
-.card-secondary {
-    background-color: var(--color-secondary);
-    border-radius: 70px;
-    padding: 90px;
-}
-
-.card-reserva {
-    height: 320px;
-    width: 320px;
-    border-radius: 120px;
-    background-color: var(--color-white);
-    position: absolute;
-    right: 0;
-    top: -25px;
-}
-
-.reserva .img-banner img {
-    width: 100%;
-}
 
 footer {
     background-color: var(--color-secondary);

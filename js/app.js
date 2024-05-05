@@ -10,7 +10,7 @@ var MEU_ENDERECO = null;
 var VALOR_CARRINHO = 0;
 var VALOR_ENTREGA = 7.5;
 
-var CELULAR_EMPRESA = '5517991234567';
+var CELULAR_EMPRESA = '5545999791926';
 
 cardapio.eventos = {
 
@@ -24,7 +24,7 @@ cardapio.eventos = {
 cardapio.metodos = {
 
     // obtem a lista de itens do cardápio
-    obterItensCardapio: (categoria = 'frutas', vermais = false) => {
+    obterItensCardapio: (categoria = 'pasteisSal', vermais = false) => {
 
         var filtro = MENU[categoria];
         console.log(filtro);
@@ -623,21 +623,3 @@ cardapio.templates = {
     `
 
 }
-
-// Função para rolar suavemente ao topo da página
-function voltarAoTopo() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
-
-// Mostrar ou ocultar o botão com base na posição de rolagem da página
-window.onscroll = function() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("btnVoltarTopo").style.display = "block";
-    } else {
-        document.getElementById("btnVoltarTopo").style.display = "none";
-    }
-};
-
